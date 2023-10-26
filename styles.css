@@ -1,62 +1,94 @@
-/** {
-    line-height: 1.5;
-    border: 1px solid red;
-    box-sizing: border-box;
-}
-*/
-body {
-    background-color: antiquewhite;
-    color:#0075e0
-    font-family: "Open Sans", Calibri, Tahoma, sans-serif;
+* {
+  
+  margin:0;
+  padding:0;
+  background-color:#faebd7;
+  color:#0e1f2d;
+  font-family: "Open Sans", Calibri, Tahoma, sans-serif;
+  /*border:2px solid red;*/
 }
 
-header,
-ul,
-p {
-    background-color: rgb(130, 186, 235);
-}
-
-img {
-    width: 20px;
-    height: auto;
-    align-self: center;
-}
-
-h1 {
-    color:#0075e0;
-    font-family: "Open Sans", Calibri, Tahoma, sans-serif;
-    font-size: 3rem;
-    font-weight: 400;
-    text-align: center;
-    margin: 0 auto;
- }
-
+.head-background,
+h1,
 h2,
 p {
-    color:blueviolet;
-    font-size: 2rem;
-    text-align: center;    
+  background-color: #0e1f2d;
+  padding: 1em;
+  text-align:center;
+  color:#7fffd4;
+  margin:0;
+  box-sizing: border-box;
 }
 
 .center {
-    display: block;
-    margin: 0 auto;
-    width: 500px;
+  display:block;  
+  margin:auto;
+  width:500px;
 }
 
-/*.content-width {
-    max-width: 200ch;
-    width: calc(100% - 4rem);
-    margin:0 auto;
+html,
+body,
+div {
+  height: 100%;
+  width: 100%;
 }
-*/
+/* Original CSS styling, before applying BEM styling principles
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body {
+background-color: antiquewhite;
+color:#162f44;
+font-family: "Open Sans", Calibri, Tahoma, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: #0e1f2d;
+margin: 0;
+}
+
+img {
+width: 20px;
+height: auto;
+align-self: center;
+}
+
+h1 {
+color:antiquewhite;
+font-family: "Open Sans", Calibri, Tahoma, sans-serif;
+font-size: 3rem;
+font-weight: 400;
+text-align: center;
+margin: 0 auto;
+padding: 1em;
+border: 1px solid rgb(255, 0, 195);
+box-sizing: border-box;
+}
+
+h2,
+p {
+color:blueviolet;
+font-size: 2rem;
+text-align: center; 
+}
+
+.center {
+display: block;
+margin: 0 auto;
+width: 500px;
+}
 
 .sub-heading {
-    font-weight: bold;
-    font-size: 48px;
-    font-family: "Open Sans", Calibri, Tahoma, sans-serif;
-    color:cadetblue;
-    text-transform: uppercase;
+font-weight: bold;
+font-size: 48px;
+font-family: "Open Sans", Calibri, Tahoma, sans-serif;
+color:#0e1f2d;
+text-transform: uppercase;
 }
 
-
+*/
